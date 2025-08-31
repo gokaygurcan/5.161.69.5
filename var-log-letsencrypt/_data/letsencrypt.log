@@ -1,0 +1,1357 @@
+2025-08-28 22:31:35,699:DEBUG:certbot._internal.main:certbot version: 1.21.0
+2025-08-28 22:31:35,699:DEBUG:certbot._internal.main:Location of certbot entry point: /usr/bin/certbot
+2025-08-28 22:31:35,699:DEBUG:certbot._internal.main:Arguments: ['--agree-tos', '-d', 'gurcan.xyz']
+2025-08-28 22:31:35,699:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#certbot-dns-standalone:dns-standalone,PluginEntryPoint#certbot-plugin-gandi:dns,PluginEntryPoint#certbot-plugin-gandi:dns-gandi,PluginEntryPoint#certbot-route53:auth,PluginEntryPoint#dns,PluginEntryPoint#dns-cloudflare,PluginEntryPoint#dns-digitalocean,PluginEntryPoint#dns-dnsimple,PluginEntryPoint#dns-gandi,PluginEntryPoint#dns-gehirn,PluginEntryPoint#dns-google,PluginEntryPoint#dns-linode,PluginEntryPoint#dns-ovh,PluginEntryPoint#dns-rfc2136,PluginEntryPoint#dns-route53,PluginEntryPoint#dns-sakuracloud,PluginEntryPoint#dns-standalone,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2025-08-28 22:31:35,708:DEBUG:certbot._internal.log:Root logging level set at 30
+2025-08-28 22:31:35,712:DEBUG:certbot._internal.plugins.selection:Requested authenticator None and installer None
+2025-08-28 22:31:35,713:WARNING:certbot_plugin_gandi.main:Certbot is moving to remove 3rd party plugins prefixes. Please use --authenticator dns-gandi --dns-gandi-credentials
+2025-08-28 22:31:35,714:DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-08-28 22:31:35,716:DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+2025-08-28 22:31:35,717:DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-08-28 22:31:35,719:DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-08-28 22:31:35,719:DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-08-28 22:31:35,719:DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-08-28 22:31:35,720:DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-08-28 22:31:35,724:DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-08-28 22:31:35,724:DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-08-28 22:31:35,724:DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-08-28 22:31:35,725:DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-08-28 22:31:35,729:DEBUG:botocore.utils:IMDS ENDPOINT: http://169.254.169.254/
+2025-08-28 22:31:35,731:DEBUG:botocore.credentials:Looking for credentials via: env
+2025-08-28 22:31:35,731:DEBUG:botocore.credentials:Looking for credentials via: assume-role
+2025-08-28 22:31:35,731:DEBUG:botocore.credentials:Looking for credentials via: assume-role-with-web-identity
+2025-08-28 22:31:35,731:DEBUG:botocore.credentials:Looking for credentials via: sso
+2025-08-28 22:31:35,732:DEBUG:botocore.credentials:Looking for credentials via: shared-credentials-file
+2025-08-28 22:31:35,732:DEBUG:botocore.credentials:Looking for credentials via: custom-process
+2025-08-28 22:31:35,732:DEBUG:botocore.credentials:Looking for credentials via: config-file
+2025-08-28 22:31:35,732:DEBUG:botocore.credentials:Looking for credentials via: ec2-credentials-file
+2025-08-28 22:31:35,732:DEBUG:botocore.credentials:Looking for credentials via: boto-config
+2025-08-28 22:31:35,732:DEBUG:botocore.credentials:Looking for credentials via: container-role
+2025-08-28 22:31:35,732:DEBUG:botocore.credentials:Looking for credentials via: iam-role
+2025-08-28 22:31:35,733:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 169.254.169.254:80
+2025-08-28 22:31:35,735:DEBUG:urllib3.connectionpool:http://169.254.169.254:80 "PUT /latest/api/token HTTP/1.1" 404 9
+2025-08-28 22:31:35,736:DEBUG:urllib3.connectionpool:http://169.254.169.254:80 "GET /latest/meta-data/iam/security-credentials/ HTTP/1.1" 404 9
+2025-08-28 22:31:35,736:DEBUG:botocore.utils:Metadata service returned non-200 response with status code of 404 for url: http://169.254.169.254/latest/meta-data/iam/security-credentials/, content body: b'Not Found'
+2025-08-28 22:31:35,736:DEBUG:botocore.utils:Max number of attempts exceeded (1) when attempting to retrieve data from metadata service.
+2025-08-28 22:31:35,737:DEBUG:botocore.loaders:Loading JSON file: /usr/lib/python3/dist-packages/botocore/data/endpoints.json
+2025-08-28 22:31:35,746:DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x727b074f77f0>
+2025-08-28 22:31:35,759:DEBUG:botocore.loaders:Loading JSON file: /usr/lib/python3/dist-packages/botocore/data/route53/2013-04-01/service-2.json
+2025-08-28 22:31:35,765:DEBUG:botocore.hooks:Event creating-client-class.route-53: calling handler <function add_generate_presigned_url at 0x727b074b1d80>
+2025-08-28 22:31:35,767:DEBUG:botocore.endpoint:Setting route53 timeout as (60, 60)
+2025-08-28 22:31:35,768:DEBUG:botocore.loaders:Loading JSON file: /usr/lib/python3/dist-packages/botocore/data/_retry.json
+2025-08-28 22:31:35,768:DEBUG:botocore.client:Registering retry handlers for service: route53
+2025-08-28 22:31:35,768:DEBUG:certbot._internal.plugins.selection:Multiple candidate plugins: * dns
+Description: Obtain certificates using a DNS TXT record (if you are using Gandi for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns = certbot_plugin_gandi.main:Authenticator
+Initialized: <certbot_plugin_gandi.main.Authenticator object at 0x727b073edc60>
+Prep: True
+
+* dns-cloudflare
+Description: Obtain certificates using a DNS TXT record (if you are using Cloudflare for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-cloudflare = certbot_dns_cloudflare._internal.dns_cloudflare:Authenticator
+Initialized: <certbot_dns_cloudflare._internal.dns_cloudflare.Authenticator object at 0x727b073eddb0>
+Prep: True
+
+* dns-digitalocean
+Description: Obtain certificates using a DNS TXT record (if you are using DigitalOcean for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-digitalocean = certbot_dns_digitalocean._internal.dns_digitalocean:Authenticator
+Initialized: <certbot_dns_digitalocean._internal.dns_digitalocean.Authenticator object at 0x727b073ee110>
+Prep: True
+
+* dns-dnsimple
+Description: Obtain certificates using a DNS TXT record (if you are using DNSimple for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-dnsimple = certbot_dns_dnsimple._internal.dns_dnsimple:Authenticator
+Initialized: <certbot_dns_dnsimple._internal.dns_dnsimple.Authenticator object at 0x727b073ee650>
+Prep: True
+
+* dns-gandi
+Description: Obtain certificates using a DNS TXT record (if you are using Gandi for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-gandi = certbot_plugin_gandi.main:Authenticator
+Initialized: <certbot_plugin_gandi.main.Authenticator object at 0x727b073ee050>
+Prep: True
+
+* dns-gehirn
+Description: Obtain certificates using a DNS TXT record (if you are using Gehirn Infrastructure Service for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-gehirn = certbot_dns_gehirn._internal.dns_gehirn:Authenticator
+Initialized: <certbot_dns_gehirn._internal.dns_gehirn.Authenticator object at 0x727b073ee0b0>
+Prep: True
+
+* dns-google
+Description: Obtain certificates using a DNS TXT record (if you are using Google Cloud DNS for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-google = certbot_dns_google._internal.dns_google:Authenticator
+Initialized: <certbot_dns_google._internal.dns_google.Authenticator object at 0x727b073ee320>
+Prep: True
+
+* dns-linode
+Description: Obtain certs using a DNS TXT record (if you are using Linode for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-linode = certbot_dns_linode._internal.dns_linode:Authenticator
+Initialized: <certbot_dns_linode._internal.dns_linode.Authenticator object at 0x727b073ee260>
+Prep: True
+
+* dns-ovh
+Description: Obtain certificates using a DNS TXT record (if you are using OVH for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-ovh = certbot_dns_ovh._internal.dns_ovh:Authenticator
+Initialized: <certbot_dns_ovh._internal.dns_ovh.Authenticator object at 0x727b073edf30>
+Prep: True
+
+* dns-rfc2136
+Description: Obtain certificates using a DNS TXT record (if you are using BIND for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-rfc2136 = certbot_dns_rfc2136._internal.dns_rfc2136:Authenticator
+Initialized: <certbot_dns_rfc2136._internal.dns_rfc2136.Authenticator object at 0x727b073ee2f0>
+Prep: True
+
+* dns-route53
+Description: Obtain certificates using a DNS TXT record (if you are using AWS Route53 for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-route53 = certbot_dns_route53._internal.dns_route53:Authenticator
+Initialized: <certbot_dns_route53._internal.dns_route53.Authenticator object at 0x727b073ee200>
+Prep: True
+
+* dns-sakuracloud
+Description: Obtain certificates using a DNS TXT record (if you are using Sakura Cloud for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-sakuracloud = certbot_dns_sakuracloud._internal.dns_sakuracloud:Authenticator
+Initialized: <certbot_dns_sakuracloud._internal.dns_sakuracloud.Authenticator object at 0x727b073ef760>
+Prep: True
+
+* dns-standalone
+Description: Obtain certificates using an integrated DNS server
+Interfaces: Authenticator, Plugin
+Entry point: dns-standalone = certbot_dns_standalone.dns_standalone:Authenticator
+Initialized: <certbot_dns_standalone.dns_standalone.Authenticator object at 0x727b06e2cfd0>
+Prep: True
+
+* standalone
+Description: Spin up a temporary webserver
+Interfaces: Authenticator, Plugin
+Entry point: standalone = certbot._internal.plugins.standalone:Authenticator
+Initialized: <certbot._internal.plugins.standalone.Authenticator object at 0x727b06e2d000>
+Prep: True
+
+* webroot
+Description: Place files in webroot directory
+Interfaces: Authenticator, Plugin
+Entry point: webroot = certbot._internal.plugins.webroot:Authenticator
+Initialized: <certbot._internal.plugins.webroot.Authenticator object at 0x727b06e2d090>
+Prep: True
+2025-08-28 22:31:36,117:ERROR:certbot._internal.log:Exiting due to user request.
+2025-08-28 22:36:59,780:DEBUG:certbot._internal.main:certbot version: 1.21.0
+2025-08-28 22:36:59,780:DEBUG:certbot._internal.main:Location of certbot entry point: /usr/bin/certbot
+2025-08-28 22:36:59,780:DEBUG:certbot._internal.main:Arguments: ['--authenticator', 'dns-cloudflare', '--dns-cloudflare-credentials', '/etc/letsencrypt/secrets/cloudflare.ini', '-v', '-d', '*.gurcan.xyz,gurcan.xyz']
+2025-08-28 22:36:59,780:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#certbot-dns-standalone:dns-standalone,PluginEntryPoint#certbot-plugin-gandi:dns,PluginEntryPoint#certbot-plugin-gandi:dns-gandi,PluginEntryPoint#certbot-route53:auth,PluginEntryPoint#dns,PluginEntryPoint#dns-cloudflare,PluginEntryPoint#dns-digitalocean,PluginEntryPoint#dns-dnsimple,PluginEntryPoint#dns-gandi,PluginEntryPoint#dns-gehirn,PluginEntryPoint#dns-google,PluginEntryPoint#dns-linode,PluginEntryPoint#dns-ovh,PluginEntryPoint#dns-rfc2136,PluginEntryPoint#dns-route53,PluginEntryPoint#dns-sakuracloud,PluginEntryPoint#dns-standalone,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2025-08-28 22:36:59,788:DEBUG:certbot._internal.log:Root logging level set at 20
+2025-08-28 22:36:59,789:DEBUG:certbot._internal.plugins.selection:Requested authenticator dns-cloudflare and installer None
+2025-08-28 22:36:59,789:DEBUG:certbot._internal.plugins.selection:Single candidate plugin: * dns-cloudflare
+Description: Obtain certificates using a DNS TXT record (if you are using Cloudflare for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-cloudflare = certbot_dns_cloudflare._internal.dns_cloudflare:Authenticator
+Initialized: <certbot_dns_cloudflare._internal.dns_cloudflare.Authenticator object at 0x798f009b9570>
+Prep: True
+2025-08-28 22:36:59,789:DEBUG:certbot._internal.plugins.selection:Selected authenticator <certbot_dns_cloudflare._internal.dns_cloudflare.Authenticator object at 0x798f009b9570> and installer None
+2025-08-28 22:36:59,789:INFO:certbot._internal.plugins.selection:Plugins selected: Authenticator dns-cloudflare, Installer None
+2025-08-28 22:37:10,826:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2025-08-28 22:37:10,828:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org:443
+2025-08-28 22:37:10,975:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 995
+2025-08-28 22:37:10,976:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Thu, 28 Aug 2025 20:37:10 GMT
+Content-Type: application/json
+Content-Length: 995
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "profiles": {
+      "classic": "https://letsencrypt.org/docs/profiles#classic",
+      "shortlived": "https://letsencrypt.org/docs/profiles#shortlived (not yet generally available)",
+      "tlsserver": "https://letsencrypt.org/docs/profiles#tlsserver"
+    },
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.5-February-24-2025.pdf",
+    "website": "https://letsencrypt.org"
+  },
+  "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
+  "renewalInfo": "https://acme-v02.api.letsencrypt.org/acme/renewal-info",
+  "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert",
+  "tGPR_tLEteI": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417"
+}
+2025-08-28 22:37:14,467:DEBUG:acme.client:Requesting fresh nonce
+2025-08-28 22:37:14,468:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
+2025-08-28 22:37:14,512:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2025-08-28 22:37:14,513:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Thu, 28 Aug 2025 20:37:14 GMT
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: K7BcPJEg_EnWLAke0B-4bUM9kqP7OPd6Nl1ClPjKOb6jFVEypUM
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+
+2025-08-28 22:37:14,513:DEBUG:acme.client:Storing nonce: K7BcPJEg_EnWLAke0B-4bUM9kqP7OPd6Nl1ClPjKOb6jFVEypUM
+2025-08-28 22:37:14,513:DEBUG:acme.client:JWS payload:
+b'{\n  "contact": [\n    "mailto:certbot@gokaygurcan.com"\n  ],\n  "termsOfServiceAgreed": true\n}'
+2025-08-28 22:37:14,518:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/new-acct:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAiandrIjogeyJuIjogInVxb2NiOURMVlFMOWFFQ0gzbjh5RkRsakNKZGo0cGdOaVNBUldscTNiZWJVVWZPQ0YxZWpDdFRlUGJyUmplNFQtaXVpYWlGYVFLR1NZQS1QQkFFMmdnQnNJQUhKUXc3UnMxOXlQOXpaYk9MYS1LeWhrd0dmSTl5eld4YXN5dXJkNVR2Y2NETnZLZjdFRUdVQXRTVjVLell4NEFsczVveXZlMzhlY2QxVjlCZEllN0FWcFUxYlphY3R1UmNPMzBINXBrb01jMlJ5SkhRR1RFNnc2U3Z4YkxnaTczVGVrS3JQbHhtTUtQR2NVS0g4XzNyOVZvd19fbURncGhPVDdKMFZZNGRaTy1wWEhtNzZRRmFkQWJwZ1F4LUxRMXhFbVp5REJtUk1ySlI2dlRtaEMyR3l6b2pkZ0VkYlRCYmFwNE9QY0hKYjdoWTRXOGMzM0cyVFFfR2E5USIsICJlIjogIkFRQUIiLCAia3R5IjogIlJTQSJ9LCAibm9uY2UiOiAiSzdCY1BKRWdfRW5XTEFrZTBCLTRiVU05a3FQN09QZDZObDFDbFBqS09iNmpGVkV5cFVNIiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9uZXctYWNjdCJ9",
+  "signature": "NckoKYSjH7bZDuHW6YeTaUIilyDyA8P47naQK4LxFSs8k2lQXCx0R5gAbMr8ig22Qp33p2Wn68w4ySFfgJXndMOIJujhtsAulAKys2aPkhrmzkdDKYZzhPcqMlofdMFios1iGigyMZ63pfcdzAo6fEEGDN02RpSdRLcHvXOT0HrbnolugLFO8X1GmXxoUr4vpK7uj0zTSCdb5Fsa_hZ8ollPdouykdH26AbBq_cTYag55RdkBpDYqi1I98w0vU6OgB4Jvfi5Zt1rUpXFWGp53r7I99fBCdxdbej3oDiHgp1iNSpD9B9rXXlPuFOqhd7APnv77Py_NdjRJjmfnsw6Hw",
+  "payload": "ewogICJjb250YWN0IjogWwogICAgIm1haWx0bzpjZXJ0Ym90QGdva2F5Z3VyY2FuLmNvbSIKICBdLAogICJ0ZXJtc09mU2VydmljZUFncmVlZCI6IHRydWUKfQ"
+}
+2025-08-28 22:37:14,615:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/new-acct HTTP/1.1" 201 477
+2025-08-28 22:37:14,616:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Thu, 28 Aug 2025 20:37:14 GMT
+Content-Type: application/json
+Content-Length: 477
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index", <https://letsencrypt.org/documents/LE-SA-v1.5-February-24-2025.pdf>;rel="terms-of-service"
+Location: https://acme-v02.api.letsencrypt.org/acme/acct/2625569537
+Replay-Nonce: K7BcPJEge-0Xq9tTh8UUi9hW8J6MYEo-_dx4bqrSe92krrZt7Js
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "key": {
+    "kty": "RSA",
+    "n": "uqocb9DLVQL9aECH3n8yFDljCJdj4pgNiSARWlq3bebUUfOCF1ejCtTePbrRje4T-iuiaiFaQKGSYA-PBAE2ggBsIAHJQw7Rs19yP9zZbOLa-KyhkwGfI9yzWxasyurd5TvccDNvKf7EEGUAtSV5KzYx4Als5oyve38ecd1V9BdIe7AVpU1bZactuRcO30H5pkoMc2RyJHQGTE6w6SvxbLgi73TekKrPlxmMKPGcUKH8_3r9Vow__mDgphOT7J0VY4dZO-pXHm76QFadAbpgQx-LQ1xEmZyDBmRMrJR6vTmhC2GyzojdgEdbTBbap4OPcHJb7hY4W8c33G2TQ_Ga9Q",
+    "e": "AQAB"
+  },
+  "createdAt": "2025-08-28T20:37:14.560684021Z",
+  "status": "valid"
+}
+2025-08-28 22:37:14,617:DEBUG:acme.client:Storing nonce: K7BcPJEge-0Xq9tTh8UUi9hW8J6MYEo-_dx4bqrSe92krrZt7Js
+2025-08-28 22:37:22,376:DEBUG:certbot._internal.display.obj:Notifying user: Account registered.
+2025-08-28 22:37:22,376:DEBUG:certbot._internal.main:Picked account: <Account(RegistrationResource(body=Registration(key=JWKRSA(key=<ComparableRSAKey(<cryptography.hazmat.backends.openssl.rsa._RSAPublicKey object at 0x798f009edd80>)>), contact=(), agreement=None, status='valid', terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-v02.api.letsencrypt.org/acme/acct/2625569537', new_authzr_uri=None, terms_of_service='https://letsencrypt.org/documents/LE-SA-v1.5-February-24-2025.pdf'), e0d3882408027f492d8b92ec36fc772b, Meta(creation_dt=datetime.datetime(2025, 8, 28, 20, 37, 14, tzinfo=<UTC>), creation_host='certbot.gokaygurcan.com.certbot.gokaygurcan.com', register_to_eff=None))>
+2025-08-28 22:37:22,377:DEBUG:certbot._internal.display.obj:Notifying user: Requesting a certificate for *.gurcan.xyz and gurcan.xyz
+2025-08-28 22:37:22,691:DEBUG:certbot.crypto_util:Generating RSA key (2048 bits): /etc/letsencrypt/keys/0000_key-certbot.pem
+2025-08-28 22:37:22,695:DEBUG:certbot.crypto_util:Creating CSR: /etc/letsencrypt/csr/0000_csr-certbot.pem
+2025-08-28 22:37:22,696:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "*.gurcan.xyz"\n    },\n    {\n      "type": "dns",\n      "value": "gurcan.xyz"\n    }\n  ]\n}'
+2025-08-28 22:37:22,698:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJLN0JjUEpFZ2UtMFhxOXRUaDhVVWk5aFc4SjZNWUVvLV9keDRicXJTZTkya3JyWnQ3SnMiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL25ldy1vcmRlciJ9",
+  "signature": "tJjRLRAOpa6dP39vjXErsdtZruc06KLdK9H-V3mWSm7_Z-QD-xgO310_utQnWMxJQHAFdsYdaNPcPKrx6hurwtrGVSwtieCxWYR70qsVnpjk_72kEHtIaT1zEwlKFiyXmSBeoKN01AJv1FAC3k_qf8wrBPm6p_ZHx9g6Hf5xzpXQNESfbdxW4oB8Q5c5_--sUs_QXuo8h5K6CNhHYtZxRMnPuZNo13jIEjiRb5JIHeah-bHJzPRTzY9TmcXpw3q8JnvVVhXat13kNj3bPbrRFvw7XchECwW07tmwMlsZYWT4xyMVkrfV9NXOwqqMcwitWmioy4fOZvl_Bxbv2HiR_A",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIiouZ3VyY2FuLnh5eiIKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogImRucyIsCiAgICAgICJ2YWx1ZSI6ICJndXJjYW4ueHl6IgogICAgfQogIF0KfQ"
+}
+2025-08-28 22:37:22,884:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 487
+2025-08-28 22:37:22,885:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Thu, 28 Aug 2025 20:37:22 GMT
+Content-Type: application/json
+Content-Length: 487
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/2625569537/422500329287
+Replay-Nonce: _zBwgA1NGQaBLONUGH0Z4nagpeBZtiu0x-FTnyE9njm5MFekNac
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "pending",
+  "expires": "2025-09-04T20:37:22Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "*.gurcan.xyz"
+    },
+    {
+      "type": "dns",
+      "value": "gurcan.xyz"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/575574914707",
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/575574914857"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/2625569537/422500329287"
+}
+2025-08-28 22:37:22,885:DEBUG:acme.client:Storing nonce: _zBwgA1NGQaBLONUGH0Z4nagpeBZtiu0x-FTnyE9njm5MFekNac
+2025-08-28 22:37:22,886:DEBUG:acme.client:JWS payload:
+b''
+2025-08-28 22:37:22,888:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/575574914707:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJfekJ3Z0ExTkdRYUJMT05VR0gwWjRuYWdwZUJadGl1MHgtRlRueUU5bmptNU1GZWtOYWMiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LzI2MjU1Njk1MzcvNTc1NTc0OTE0NzA3In0",
+  "signature": "ZxKvK7ZkKhu7Y822KsBrdV7X2x1P2VcLRtPKqheUh4i-epT8f9WVwipioVwC00RM7kDXKH6LLb6F6XgvUeKk5b03gkIk0DXKYoS_-rsoQN2ppjE9nkKhqOYjeKzzjE49JB8j5mkafRvRFR53n7w03AjaBCMpcXgR6iNQ7T2M8QyeGEIi2OnO5b6G82VGz9bX02cPrBuH2MwZHPMeoDun6rwrDiKJpY94SPEVlecT2nobUxat8nvPdVPaR8KpJlloB470hgzkDQ_Usbaol73SzwS2mLjvAyB-4ViYTNtgO8DL6bHhBkqCHOStG9UAC5Aezum5AEogkwjZH_BGkVyaLQ",
+  "payload": ""
+}
+2025-08-28 22:37:22,935:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz/2625569537/575574914707 HTTP/1.1" 200 392
+2025-08-28 22:37:22,936:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Thu, 28 Aug 2025 20:37:22 GMT
+Content-Type: application/json
+Content-Length: 392
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: _zBwgA1NQvTAShsNKRayDNhwQro8dlu019H92DC_ceZVgTQx9go
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "gurcan.xyz"
+  },
+  "status": "pending",
+  "expires": "2025-09-04T20:37:22Z",
+  "challenges": [
+    {
+      "type": "dns-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/575574914707/XUKx0A",
+      "status": "pending",
+      "token": "OZJTIEX2aQoI-kd5UJBOocqHLIuj5p_zVXaUsj1RriY"
+    }
+  ],
+  "wildcard": true
+}
+2025-08-28 22:37:22,936:DEBUG:acme.client:Storing nonce: _zBwgA1NQvTAShsNKRayDNhwQro8dlu019H92DC_ceZVgTQx9go
+2025-08-28 22:37:22,936:DEBUG:acme.client:JWS payload:
+b''
+2025-08-28 22:37:22,939:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/575574914857:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJfekJ3Z0ExTlF2VEFTaHNOS1JheUROaHdRcm84ZGx1MDE5SDkyRENfY2VaVmdUUXg5Z28iLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LzI2MjU1Njk1MzcvNTc1NTc0OTE0ODU3In0",
+  "signature": "EVEdjZVJf0Yc2Hl0PPfDBa1htRiZlDBva5ZQJRTvBgvIVF53N9CF47E5t1VbRX3bqHKA5kmnewGhdrL3ST7F27RkXY4n-ojgLi8d-1meIiGnETkmzhQJm_wRPpaC1kJSvTIlIiXeOE0l0AxlZ9034NZwH_0TNnLF0qDKd5XFCd5j0I4hKgJplpxxPLZz06_i_GP_oZH3K4biUhvN2B_sFhdey6IFCKRL10niRbVkqNko3IGSOVGQzUv8cpXY1YEU2zk-nhK55HGS8JnqijJf3GSy4sZZF713DqEBxcOzT6FyrbSP4fFCg3-Ca6J2uh0FgC4vcv-7QRZGRSOBYLf1_w",
+  "payload": ""
+}
+2025-08-28 22:37:22,986:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz/2625569537/575574914857 HTTP/1.1" 200 818
+2025-08-28 22:37:22,986:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Thu, 28 Aug 2025 20:37:22 GMT
+Content-Type: application/json
+Content-Length: 818
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: _zBwgA1NpA8fQojp5ogpeB813_ivBeT9WfaGI9wIIrL949eXJ4M
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "gurcan.xyz"
+  },
+  "status": "pending",
+  "expires": "2025-09-04T20:37:22Z",
+  "challenges": [
+    {
+      "type": "dns-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/575574914857/bnOgAw",
+      "status": "pending",
+      "token": "k3wHJg18Wv4rlNYI0GuiiLHXQ2_T6w5qa6ZBFPq7oIU"
+    },
+    {
+      "type": "http-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/575574914857/DSFeLA",
+      "status": "pending",
+      "token": "k3wHJg18Wv4rlNYI0GuiiLHXQ2_T6w5qa6ZBFPq7oIU"
+    },
+    {
+      "type": "tls-alpn-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/575574914857/hbYUCg",
+      "status": "pending",
+      "token": "k3wHJg18Wv4rlNYI0GuiiLHXQ2_T6w5qa6ZBFPq7oIU"
+    }
+  ]
+}
+2025-08-28 22:37:22,987:DEBUG:acme.client:Storing nonce: _zBwgA1NpA8fQojp5ogpeB813_ivBeT9WfaGI9wIIrL949eXJ4M
+2025-08-28 22:37:22,987:INFO:certbot._internal.auth_handler:Performing the following challenges:
+2025-08-28 22:37:22,988:INFO:certbot._internal.auth_handler:dns-01 challenge for gurcan.xyz
+2025-08-28 22:37:22,988:INFO:certbot._internal.auth_handler:dns-01 challenge for gurcan.xyz
+2025-08-28 22:37:22,988:WARNING:certbot.plugins.dns_common:Unsafe permissions on credentials configuration file: /etc/letsencrypt/secrets/cloudflare.ini
+2025-08-28 22:37:22,994:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-28 22:37:23,787:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=gurcan.xyz&per_page=1 HTTP/1.1" 403 None
+2025-08-28 22:37:23,791:DEBUG:certbot._internal.error_handler:Encountered exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 183, in _find_zone_id
+    zones = self.cf.zones.get(params=params)  # zones | pylint: disable=no-member
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 672, in get
+    return self._base.call_with_auth('GET', self._parts,
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 126, in call_with_auth
+    return self._call(method, headers, parts,
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 502, in _call
+    raise CloudFlareAPIError(code, message)
+CloudFlare.exceptions.CloudFlareAPIError: Cannot use the access token from location: 5.161.69.5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/_internal/auth_handler.py", line 70, in handle_authorizations
+    resps = self.auth.perform(achalls)
+  File "/usr/lib/python3/dist-packages/certbot/plugins/dns_common.py", line 67, in perform
+    self._perform(domain, validation_domain_name, validation)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 74, in _perform
+    self._get_cloudflare_client().add_txt_record(domain, validation_name, validation, self.ttl)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 106, in add_txt_record
+    zone_id = self._find_zone_id(domain)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 200, in _find_zone_id
+    raise errors.PluginError('Error determining zone_id: {0} {1}. Please confirm '
+certbot.errors.PluginError: Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+
+2025-08-28 22:37:23,791:DEBUG:certbot._internal.error_handler:Calling registered functions
+2025-08-28 22:37:23,791:INFO:certbot._internal.auth_handler:Cleaning up challenges
+2025-08-28 22:37:23,797:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-28 22:37:24,672:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=gurcan.xyz&per_page=1 HTTP/1.1" 403 None
+2025-08-28 22:37:24,673:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Encountered error finding zone_id during deletion: Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+2025-08-28 22:37:24,680:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-28 22:37:25,397:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=gurcan.xyz&per_page=1 HTTP/1.1" 403 None
+2025-08-28 22:37:25,398:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Encountered error finding zone_id during deletion: Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+2025-08-28 22:37:25,400:DEBUG:certbot._internal.log:Exiting abnormally:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 183, in _find_zone_id
+    zones = self.cf.zones.get(params=params)  # zones | pylint: disable=no-member
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 672, in get
+    return self._base.call_with_auth('GET', self._parts,
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 126, in call_with_auth
+    return self._call(method, headers, parts,
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 502, in _call
+    raise CloudFlareAPIError(code, message)
+CloudFlare.exceptions.CloudFlareAPIError: Cannot use the access token from location: 5.161.69.5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 33, in <module>
+    sys.exit(load_entry_point('certbot==1.21.0', 'console_scripts', 'certbot')())
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 15, in main
+    return internal_main.main(cli_args)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/main.py", line 1574, in main
+    return config.func(config, plugins)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/main.py", line 1434, in certonly
+    lineage = _get_and_save_cert(le_client, config, domains, certname, lineage)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/main.py", line 133, in _get_and_save_cert
+    lineage = le_client.obtain_and_enroll_certificate(domains, certname)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/client.py", line 459, in obtain_and_enroll_certificate
+    cert, chain, key, _ = self.obtain_certificate(domains)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/client.py", line 389, in obtain_certificate
+    orderr = self._get_order_and_authorizations(csr.data, self.config.allow_subset_of_names)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/client.py", line 439, in _get_order_and_authorizations
+    authzr = self.auth_handler.handle_authorizations(orderr, self.config, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/auth_handler.py", line 70, in handle_authorizations
+    resps = self.auth.perform(achalls)
+  File "/usr/lib/python3/dist-packages/certbot/plugins/dns_common.py", line 67, in perform
+    self._perform(domain, validation_domain_name, validation)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 74, in _perform
+    self._get_cloudflare_client().add_txt_record(domain, validation_name, validation, self.ttl)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 106, in add_txt_record
+    zone_id = self._find_zone_id(domain)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 200, in _find_zone_id
+    raise errors.PluginError('Error determining zone_id: {0} {1}. Please confirm '
+certbot.errors.PluginError: Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+2025-08-28 22:37:25,401:ERROR:certbot._internal.log:Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+2025-08-29 23:31:00,578:DEBUG:certbot._internal.main:certbot version: 1.21.0
+2025-08-29 23:31:00,578:DEBUG:certbot._internal.main:Location of certbot entry point: /usr/bin/certbot
+2025-08-29 23:31:00,578:DEBUG:certbot._internal.main:Arguments: ['--authenticator', 'dns-cloudflare', '--dns-cloudflare-credentials', '/etc/letsencrypt/secrets/cloudflare.ini', '-v', '-d', '*.melissa.amsterdam,melissa.amsterdam']
+2025-08-29 23:31:00,578:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#certbot-dns-standalone:dns-standalone,PluginEntryPoint#certbot-plugin-gandi:dns,PluginEntryPoint#certbot-plugin-gandi:dns-gandi,PluginEntryPoint#certbot-route53:auth,PluginEntryPoint#dns,PluginEntryPoint#dns-cloudflare,PluginEntryPoint#dns-digitalocean,PluginEntryPoint#dns-dnsimple,PluginEntryPoint#dns-gandi,PluginEntryPoint#dns-gehirn,PluginEntryPoint#dns-google,PluginEntryPoint#dns-linode,PluginEntryPoint#dns-ovh,PluginEntryPoint#dns-rfc2136,PluginEntryPoint#dns-route53,PluginEntryPoint#dns-sakuracloud,PluginEntryPoint#dns-standalone,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2025-08-29 23:31:00,590:DEBUG:certbot._internal.log:Root logging level set at 20
+2025-08-29 23:31:00,592:DEBUG:certbot._internal.plugins.selection:Requested authenticator dns-cloudflare and installer None
+2025-08-29 23:31:00,592:DEBUG:certbot._internal.plugins.selection:Single candidate plugin: * dns-cloudflare
+Description: Obtain certificates using a DNS TXT record (if you are using Cloudflare for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-cloudflare = certbot_dns_cloudflare._internal.dns_cloudflare:Authenticator
+Initialized: <certbot_dns_cloudflare._internal.dns_cloudflare.Authenticator object at 0x7f0aceed94e0>
+Prep: True
+2025-08-29 23:31:00,592:DEBUG:certbot._internal.plugins.selection:Selected authenticator <certbot_dns_cloudflare._internal.dns_cloudflare.Authenticator object at 0x7f0aceed94e0> and installer None
+2025-08-29 23:31:00,592:INFO:certbot._internal.plugins.selection:Plugins selected: Authenticator dns-cloudflare, Installer None
+2025-08-29 23:31:00,638:DEBUG:certbot._internal.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-v02.api.letsencrypt.org/acme/acct/2625569537', new_authzr_uri=None, terms_of_service=None), e0d3882408027f492d8b92ec36fc772b, Meta(creation_dt=datetime.datetime(2025, 8, 28, 20, 37, 14, tzinfo=<UTC>), creation_host='certbot.gokaygurcan.com.certbot.gokaygurcan.com', register_to_eff=None))>
+2025-08-29 23:31:00,639:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2025-08-29 23:31:00,640:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org:443
+2025-08-29 23:31:00,783:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 995
+2025-08-29 23:31:00,784:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:31:00 GMT
+Content-Type: application/json
+Content-Length: 995
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "profiles": {
+      "classic": "https://letsencrypt.org/docs/profiles#classic",
+      "shortlived": "https://letsencrypt.org/docs/profiles#shortlived (not yet generally available)",
+      "tlsserver": "https://letsencrypt.org/docs/profiles#tlsserver"
+    },
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.5-February-24-2025.pdf",
+    "website": "https://letsencrypt.org"
+  },
+  "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
+  "o0PQW4fgeH8": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417",
+  "renewalInfo": "https://acme-v02.api.letsencrypt.org/acme/renewal-info",
+  "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert"
+}
+2025-08-29 23:31:00,785:DEBUG:certbot._internal.display.obj:Notifying user: Requesting a certificate for *.melissa.amsterdam and melissa.amsterdam
+2025-08-29 23:31:01,139:DEBUG:certbot.crypto_util:Generating RSA key (2048 bits): /etc/letsencrypt/keys/0001_key-certbot.pem
+2025-08-29 23:31:01,142:DEBUG:certbot.crypto_util:Creating CSR: /etc/letsencrypt/csr/0001_csr-certbot.pem
+2025-08-29 23:31:01,144:DEBUG:acme.client:Requesting fresh nonce
+2025-08-29 23:31:01,144:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
+2025-08-29 23:31:01,190:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2025-08-29 23:31:01,190:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:31:01 GMT
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: _zBwgA1Np7rQ9kgPARdLhO2btHeyyJK_qBOTN7A_8gADOma3Ed0
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+
+2025-08-29 23:31:01,190:DEBUG:acme.client:Storing nonce: _zBwgA1Np7rQ9kgPARdLhO2btHeyyJK_qBOTN7A_8gADOma3Ed0
+2025-08-29 23:31:01,190:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "*.melissa.amsterdam"\n    },\n    {\n      "type": "dns",\n      "value": "melissa.amsterdam"\n    }\n  ]\n}'
+2025-08-29 23:31:01,192:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJfekJ3Z0ExTnA3clE5a2dQQVJkTGhPMmJ0SGV5eUpLX3FCT1RON0FfOGdBRE9tYTNFZDAiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL25ldy1vcmRlciJ9",
+  "signature": "Suf9s-AX2c7C5VnE3LtdnW_-E26U97WaIsJVNjF8W-TYGIlod13AgIckPnF_3W_6gnHBnRbTs7XhsEVEnmeotvhAdekk-Ff5la6acOcr9atGAr2j0suWfGZ1cgWJDdfTUELXhZtjRFOtr-WgzNVbU3oWr3VvXKvpFShFngihmp308TGwNQbnzJEh3NppssjIWuFtZnQO3e-vYX9mx1cXiR8h97FPZJwBbMHxw5iZJCOJiBtaX4ORmZ8P-ZFP6loy0XQmFS1jzTrnkbuB0z0ZaZr1tEjfxSicLyPTOFICOxhIU2EbMTT5dNnnpbCo1tpi_gt2EGxTBXN7Wj9FzGVarw",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIioubWVsaXNzYS5hbXN0ZXJkYW0iCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJkbnMiLAogICAgICAidmFsdWUiOiAibWVsaXNzYS5hbXN0ZXJkYW0iCiAgICB9CiAgXQp9"
+}
+2025-08-29 23:31:01,368:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 501
+2025-08-29 23:31:01,368:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Fri, 29 Aug 2025 21:31:01 GMT
+Content-Type: application/json
+Content-Length: 501
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/2625569537/422834330707
+Replay-Nonce: K7BcPJEgIvVet5x-8ZLNQhRvu6yAuW3ZQBXkQOoqJMMxAzPyErU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "pending",
+  "expires": "2025-09-05T21:31:01Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "*.melissa.amsterdam"
+    },
+    {
+      "type": "dns",
+      "value": "melissa.amsterdam"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049287",
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049377"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/2625569537/422834330707"
+}
+2025-08-29 23:31:01,369:DEBUG:acme.client:Storing nonce: K7BcPJEgIvVet5x-8ZLNQhRvu6yAuW3ZQBXkQOoqJMMxAzPyErU
+2025-08-29 23:31:01,369:DEBUG:acme.client:JWS payload:
+b''
+2025-08-29 23:31:01,371:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049287:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJLN0JjUEpFZ0l2VmV0NXgtOFpMTlFoUnZ1NnlBdVczWlFCWGtRT29xSk1NeEF6UHlFclUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LzI2MjU1Njk1MzcvNTc2MDQ3MDQ5Mjg3In0",
+  "signature": "MQF-o5ZMEbr7Xp7Z3Y6Zf1hjQkG38CvOynScdS6buG9Ivu0zTCtIhZ4e9wHcfYyJ8xJXMAKQsCcflITjlqhGtfqc094DUWqse9zvJf3xNDqLf6DrD7B7ohsNMXK76muovUEoaG008rhI8tWPstrZa_awshs_dK7t-hVUM24yO9qgnnpx8qy7Jo6AuHRw7iTPFR0DpL2ZRPTHf9bYp5mDu6SnNopYyqhHW6M_ij2Dpapnmb7Imj7Pj0BBM2feiUhWCYBLYhJeG8Eq6uDp-CcboSJPFPwb6jN5BoCG7MgFl-7jhqnsO4QOjCNdqcqMgUGqyLnf49apAEmMoo-_LSJK4Q",
+  "payload": ""
+}
+2025-08-29 23:31:01,418:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz/2625569537/576047049287 HTTP/1.1" 200 399
+2025-08-29 23:31:01,419:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:31:01 GMT
+Content-Type: application/json
+Content-Length: 399
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: K7BcPJEg0KMMf4MR2TKs8Jen5XlwaNFatZiaVQCq2vk7jvoSepU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "melissa.amsterdam"
+  },
+  "status": "pending",
+  "expires": "2025-09-05T21:31:01Z",
+  "challenges": [
+    {
+      "type": "dns-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049287/yeHfjw",
+      "status": "pending",
+      "token": "VASjpgwb2BH_4oDfM7K4JMW5C_J74TNUIG0gqrwugRo"
+    }
+  ],
+  "wildcard": true
+}
+2025-08-29 23:31:01,419:DEBUG:acme.client:Storing nonce: K7BcPJEg0KMMf4MR2TKs8Jen5XlwaNFatZiaVQCq2vk7jvoSepU
+2025-08-29 23:31:01,420:DEBUG:acme.client:JWS payload:
+b''
+2025-08-29 23:31:01,422:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049377:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJLN0JjUEpFZzBLTU1mNE1SMlRLczhKZW41WGx3YU5GYXRaaWFWUUNxMnZrN2p2b1NlcFUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LzI2MjU1Njk1MzcvNTc2MDQ3MDQ5Mzc3In0",
+  "signature": "F1Eh3IzxRZZkKlG65oFpnYLUnZTDg304ibRoh-AF1aeQjplyxcw5UkFUnzdWkRfn-Wg-Y3mfhvMek2aV1b2S25loq-B8hO87ZlubukERnJsNHSoL9cAkBMLBsOD4riBW-xtDNH7cFrK9crrMGRdv8tilFG1v9VI0volLa3ido9_LH-xGYC3MVTohsA9igltUE2WLf8pEm4ovL1XKzlOGh4BSUAcUZgb9yf0BIFezCXRR2fXYeu02dkiEwjk1ugnvqxlNQ_qSHIowHOnS7w4Qs3HATbM6sKwhre-CYU-zEDBe2oOdK2Cc9u0qOg6oI0IvqoM1ImQ1ZA7vU8fleH0WhQ",
+  "payload": ""
+}
+2025-08-29 23:31:01,470:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz/2625569537/576047049377 HTTP/1.1" 200 825
+2025-08-29 23:31:01,471:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:31:01 GMT
+Content-Type: application/json
+Content-Length: 825
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: K7BcPJEgn3Gh6nuvdIZczUL_Ef9xZE5U-f8PbiJhDmlHQJSi1rU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "melissa.amsterdam"
+  },
+  "status": "pending",
+  "expires": "2025-09-05T21:31:01Z",
+  "challenges": [
+    {
+      "type": "dns-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/UEeGBQ",
+      "status": "pending",
+      "token": "XaSoHSZVEbDBwNGP5uJbhbdWDu47xgXieN4xvCnGnCE"
+    },
+    {
+      "type": "tls-alpn-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/JUryxA",
+      "status": "pending",
+      "token": "XaSoHSZVEbDBwNGP5uJbhbdWDu47xgXieN4xvCnGnCE"
+    },
+    {
+      "type": "http-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/R0ezBg",
+      "status": "pending",
+      "token": "XaSoHSZVEbDBwNGP5uJbhbdWDu47xgXieN4xvCnGnCE"
+    }
+  ]
+}
+2025-08-29 23:31:01,471:DEBUG:acme.client:Storing nonce: K7BcPJEgn3Gh6nuvdIZczUL_Ef9xZE5U-f8PbiJhDmlHQJSi1rU
+2025-08-29 23:31:01,474:INFO:certbot._internal.auth_handler:Performing the following challenges:
+2025-08-29 23:31:01,474:INFO:certbot._internal.auth_handler:dns-01 challenge for melissa.amsterdam
+2025-08-29 23:31:01,474:INFO:certbot._internal.auth_handler:dns-01 challenge for melissa.amsterdam
+2025-08-29 23:31:01,475:WARNING:certbot.plugins.dns_common:Unsafe permissions on credentials configuration file: /etc/letsencrypt/secrets/cloudflare.ini
+2025-08-29 23:31:01,484:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-29 23:31:02,438:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=melissa.amsterdam&per_page=1 HTTP/1.1" 403 None
+2025-08-29 23:31:02,443:DEBUG:certbot._internal.error_handler:Encountered exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 183, in _find_zone_id
+    zones = self.cf.zones.get(params=params)  # zones | pylint: disable=no-member
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 672, in get
+    return self._base.call_with_auth('GET', self._parts,
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 126, in call_with_auth
+    return self._call(method, headers, parts,
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 502, in _call
+    raise CloudFlareAPIError(code, message)
+CloudFlare.exceptions.CloudFlareAPIError: Cannot use the access token from location: 5.161.69.5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/_internal/auth_handler.py", line 70, in handle_authorizations
+    resps = self.auth.perform(achalls)
+  File "/usr/lib/python3/dist-packages/certbot/plugins/dns_common.py", line 67, in perform
+    self._perform(domain, validation_domain_name, validation)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 74, in _perform
+    self._get_cloudflare_client().add_txt_record(domain, validation_name, validation, self.ttl)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 106, in add_txt_record
+    zone_id = self._find_zone_id(domain)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 200, in _find_zone_id
+    raise errors.PluginError('Error determining zone_id: {0} {1}. Please confirm '
+certbot.errors.PluginError: Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+
+2025-08-29 23:31:02,443:DEBUG:certbot._internal.error_handler:Calling registered functions
+2025-08-29 23:31:02,443:INFO:certbot._internal.auth_handler:Cleaning up challenges
+2025-08-29 23:31:02,445:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-29 23:31:03,559:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=melissa.amsterdam&per_page=1 HTTP/1.1" 403 None
+2025-08-29 23:31:03,561:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Encountered error finding zone_id during deletion: Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+2025-08-29 23:31:03,569:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-29 23:31:05,009:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=melissa.amsterdam&per_page=1 HTTP/1.1" 403 None
+2025-08-29 23:31:05,011:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Encountered error finding zone_id during deletion: Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+2025-08-29 23:31:05,013:DEBUG:certbot._internal.log:Exiting abnormally:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 183, in _find_zone_id
+    zones = self.cf.zones.get(params=params)  # zones | pylint: disable=no-member
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 672, in get
+    return self._base.call_with_auth('GET', self._parts,
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 126, in call_with_auth
+    return self._call(method, headers, parts,
+  File "/usr/lib/python3/dist-packages/CloudFlare/cloudflare.py", line 502, in _call
+    raise CloudFlareAPIError(code, message)
+CloudFlare.exceptions.CloudFlareAPIError: Cannot use the access token from location: 5.161.69.5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 33, in <module>
+    sys.exit(load_entry_point('certbot==1.21.0', 'console_scripts', 'certbot')())
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 15, in main
+    return internal_main.main(cli_args)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/main.py", line 1574, in main
+    return config.func(config, plugins)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/main.py", line 1434, in certonly
+    lineage = _get_and_save_cert(le_client, config, domains, certname, lineage)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/main.py", line 133, in _get_and_save_cert
+    lineage = le_client.obtain_and_enroll_certificate(domains, certname)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/client.py", line 459, in obtain_and_enroll_certificate
+    cert, chain, key, _ = self.obtain_certificate(domains)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/client.py", line 389, in obtain_certificate
+    orderr = self._get_order_and_authorizations(csr.data, self.config.allow_subset_of_names)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/client.py", line 439, in _get_order_and_authorizations
+    authzr = self.auth_handler.handle_authorizations(orderr, self.config, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/_internal/auth_handler.py", line 70, in handle_authorizations
+    resps = self.auth.perform(achalls)
+  File "/usr/lib/python3/dist-packages/certbot/plugins/dns_common.py", line 67, in perform
+    self._perform(domain, validation_domain_name, validation)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 74, in _perform
+    self._get_cloudflare_client().add_txt_record(domain, validation_name, validation, self.ttl)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 106, in add_txt_record
+    zone_id = self._find_zone_id(domain)
+  File "/usr/lib/python3/dist-packages/certbot_dns_cloudflare/_internal/dns_cloudflare.py", line 200, in _find_zone_id
+    raise errors.PluginError('Error determining zone_id: {0} {1}. Please confirm '
+certbot.errors.PluginError: Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+2025-08-29 23:31:05,018:ERROR:certbot._internal.log:Error determining zone_id: 9109 Cannot use the access token from location: 5.161.69.5. Please confirm that you have supplied valid Cloudflare API credentials. (Did you enter a valid Cloudflare Token?)
+2025-08-29 23:32:35,742:DEBUG:certbot._internal.main:certbot version: 1.21.0
+2025-08-29 23:32:35,743:DEBUG:certbot._internal.main:Location of certbot entry point: /usr/bin/certbot
+2025-08-29 23:32:35,743:DEBUG:certbot._internal.main:Arguments: ['--authenticator', 'dns-cloudflare', '--dns-cloudflare-credentials', '/etc/letsencrypt/secrets/cloudflare.ini', '-v', '-d', '*.melissa.amsterdam,melissa.amsterdam']
+2025-08-29 23:32:35,743:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#certbot-dns-standalone:dns-standalone,PluginEntryPoint#certbot-plugin-gandi:dns,PluginEntryPoint#certbot-plugin-gandi:dns-gandi,PluginEntryPoint#certbot-route53:auth,PluginEntryPoint#dns,PluginEntryPoint#dns-cloudflare,PluginEntryPoint#dns-digitalocean,PluginEntryPoint#dns-dnsimple,PluginEntryPoint#dns-gandi,PluginEntryPoint#dns-gehirn,PluginEntryPoint#dns-google,PluginEntryPoint#dns-linode,PluginEntryPoint#dns-ovh,PluginEntryPoint#dns-rfc2136,PluginEntryPoint#dns-route53,PluginEntryPoint#dns-sakuracloud,PluginEntryPoint#dns-standalone,PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2025-08-29 23:32:35,752:DEBUG:certbot._internal.log:Root logging level set at 20
+2025-08-29 23:32:35,753:DEBUG:certbot._internal.plugins.selection:Requested authenticator dns-cloudflare and installer None
+2025-08-29 23:32:35,753:DEBUG:certbot._internal.plugins.selection:Single candidate plugin: * dns-cloudflare
+Description: Obtain certificates using a DNS TXT record (if you are using Cloudflare for DNS).
+Interfaces: Authenticator, Plugin
+Entry point: dns-cloudflare = certbot_dns_cloudflare._internal.dns_cloudflare:Authenticator
+Initialized: <certbot_dns_cloudflare._internal.dns_cloudflare.Authenticator object at 0x75a367b05cf0>
+Prep: True
+2025-08-29 23:32:35,753:DEBUG:certbot._internal.plugins.selection:Selected authenticator <certbot_dns_cloudflare._internal.dns_cloudflare.Authenticator object at 0x75a367b05cf0> and installer None
+2025-08-29 23:32:35,754:INFO:certbot._internal.plugins.selection:Plugins selected: Authenticator dns-cloudflare, Installer None
+2025-08-29 23:32:35,801:DEBUG:certbot._internal.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-v02.api.letsencrypt.org/acme/acct/2625569537', new_authzr_uri=None, terms_of_service=None), e0d3882408027f492d8b92ec36fc772b, Meta(creation_dt=datetime.datetime(2025, 8, 28, 20, 37, 14, tzinfo=<UTC>), creation_host='certbot.gokaygurcan.com.certbot.gokaygurcan.com', register_to_eff=None))>
+2025-08-29 23:32:35,802:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2025-08-29 23:32:35,803:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org:443
+2025-08-29 23:32:35,992:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 995
+2025-08-29 23:32:35,992:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:35 GMT
+Content-Type: application/json
+Content-Length: 995
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "7R246kwCUgw": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417",
+  "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "profiles": {
+      "classic": "https://letsencrypt.org/docs/profiles#classic",
+      "shortlived": "https://letsencrypt.org/docs/profiles#shortlived (not yet generally available)",
+      "tlsserver": "https://letsencrypt.org/docs/profiles#tlsserver"
+    },
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.5-February-24-2025.pdf",
+    "website": "https://letsencrypt.org"
+  },
+  "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
+  "renewalInfo": "https://acme-v02.api.letsencrypt.org/acme/renewal-info",
+  "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert"
+}
+2025-08-29 23:32:35,993:DEBUG:certbot._internal.display.obj:Notifying user: Requesting a certificate for *.melissa.amsterdam and melissa.amsterdam
+2025-08-29 23:32:36,240:DEBUG:certbot.crypto_util:Generating RSA key (2048 bits): /etc/letsencrypt/keys/0002_key-certbot.pem
+2025-08-29 23:32:36,243:DEBUG:certbot.crypto_util:Creating CSR: /etc/letsencrypt/csr/0002_csr-certbot.pem
+2025-08-29 23:32:36,245:DEBUG:acme.client:Requesting fresh nonce
+2025-08-29 23:32:36,245:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
+2025-08-29 23:32:36,305:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2025-08-29 23:32:36,306:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:36 GMT
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: znbRssP_TULE33RWBPmaF7crhV6qF0FsfMfc1vve49AX0lkJzas
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+
+2025-08-29 23:32:36,306:DEBUG:acme.client:Storing nonce: znbRssP_TULE33RWBPmaF7crhV6qF0FsfMfc1vve49AX0lkJzas
+2025-08-29 23:32:36,306:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "*.melissa.amsterdam"\n    },\n    {\n      "type": "dns",\n      "value": "melissa.amsterdam"\n    }\n  ]\n}'
+2025-08-29 23:32:36,308:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJ6bmJSc3NQX1RVTEUzM1JXQlBtYUY3Y3JoVjZxRjBGc2ZNZmMxdnZlNDlBWDBsa0p6YXMiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL25ldy1vcmRlciJ9",
+  "signature": "RvMCK3Ir57qpSTaL8UesThQYTZT1qNwJvZ76UAuOwiqrejcXIiVAbfsOI4hMo9oZIcwxKehF7ErSR4p_U2mDAfQwZEWU-euolEvr44wPM6dA_qEeWfBQonAUlnE-OGiLaDdoaN2ZSUVV1r1ZZI7N4Y5eRSrrVk3lk47p0j5M6c_U86QN2Yyb0qkGNCRk-kdom7lIc-wdsbNy6CzY1lj0Am2jJqt8IvKpvvgDOPpg4zctL7MFglLrSTXRzs5PLavDgn6oOivdGZZqKKOoWb_n3rlb2sPZQcBus8XxEMpqMHYBXxdjo-X7coSCV0RCi6Dt4amI8btn5vOcCjzhIwzRFQ",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIioubWVsaXNzYS5hbXN0ZXJkYW0iCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJkbnMiLAogICAgICAidmFsdWUiOiAibWVsaXNzYS5hbXN0ZXJkYW0iCiAgICB9CiAgXQp9"
+}
+2025-08-29 23:32:36,394:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 501
+2025-08-29 23:32:36,394:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:36 GMT
+Content-Type: application/json
+Content-Length: 501
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/2625569537/422834330707
+Replay-Nonce: 5vcyUwULPgf_vZ7Hg3bw-1xSf9YPnot70L8A3O-Hvw07pCi5zy4
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "pending",
+  "expires": "2025-09-05T21:31:01Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "*.melissa.amsterdam"
+    },
+    {
+      "type": "dns",
+      "value": "melissa.amsterdam"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049287",
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049377"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/2625569537/422834330707"
+}
+2025-08-29 23:32:36,395:DEBUG:acme.client:Storing nonce: 5vcyUwULPgf_vZ7Hg3bw-1xSf9YPnot70L8A3O-Hvw07pCi5zy4
+2025-08-29 23:32:36,395:DEBUG:acme.client:JWS payload:
+b''
+2025-08-29 23:32:36,397:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049287:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICI1dmN5VXdVTFBnZl92WjdIZzNidy0xeFNmOVlQbm90NzBMOEEzTy1IdncwN3BDaTV6eTQiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LzI2MjU1Njk1MzcvNTc2MDQ3MDQ5Mjg3In0",
+  "signature": "sP1TZNdOJB8_ayHcK74EU_A1MwRrr7s9ltWlkI4kb0WwhIPwhhW4AHcUu958AbmaK1-r4jeLyvfIdBcIA88NaEUrCuU7TmA9BHykGKRE98cIsT56OGfRJjd5_SMzo6DbrUaQUDham5DC5yRCOArP_nb9tKb3vFtRlBhejWsLdvbdmn-W5wa-FWwpiVG-ZpEt40fbk_EGEKP9D7KnsgedXGhKbX5kZjr-oMweFXLkJxqWjdkSrNkNQjsi0Oviil41ubMdctikrKtaFH48q5-VVPQNqj2IoprQd46ONFWZBDRUm8otH4oFwGrwDj5xmfJ33Jo5eU7VazhsOlcfUvx70Q",
+  "payload": ""
+}
+2025-08-29 23:32:36,459:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz/2625569537/576047049287 HTTP/1.1" 200 399
+2025-08-29 23:32:36,460:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:36 GMT
+Content-Type: application/json
+Content-Length: 399
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 5vcyUwULUWjWS4vxXLGyo1ZQt5ZfsWRes2DePpoRQFHlq5uLQVU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "melissa.amsterdam"
+  },
+  "status": "pending",
+  "expires": "2025-09-05T21:31:01Z",
+  "challenges": [
+    {
+      "type": "dns-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049287/yeHfjw",
+      "status": "pending",
+      "token": "VASjpgwb2BH_4oDfM7K4JMW5C_J74TNUIG0gqrwugRo"
+    }
+  ],
+  "wildcard": true
+}
+2025-08-29 23:32:36,460:DEBUG:acme.client:Storing nonce: 5vcyUwULUWjWS4vxXLGyo1ZQt5ZfsWRes2DePpoRQFHlq5uLQVU
+2025-08-29 23:32:36,460:DEBUG:acme.client:JWS payload:
+b''
+2025-08-29 23:32:36,463:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049377:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICI1dmN5VXdVTFVXaldTNHZ4WExHeW8xWlF0NVpmc1dSZXMyRGVQcG9SUUZIbHE1dUxRVlUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LzI2MjU1Njk1MzcvNTc2MDQ3MDQ5Mzc3In0",
+  "signature": "C9wqYhtiivsNrP_UjmxY_5zOQtklVvSTcpNK6nFYEF7jCrW7Y5vuSv3sm-sGgx-pXwt5IyL-pOzPsHSwHXNdfic2o0NL-x8dsNToUsr4F_FfFWjWnkrdvugRhwQPpGfI7CDJyai_9urzbcoeH3kCpIr7ymw7BvLkLfucOAnm0weWaLUBUug1FZE-nP8VGKAgEl0qwGEEEyQQR-BGYvbBr5G616T3V-WE0X-Umr1vKjZb166LcyC5Uv5jD-HDJnMs4VawU-q9ZKa-KSnY96PkP96LjH4jpc5O7xOB-OwmUiJ1w-71woDhnuvK7hMFpWJuC27CG5ta4rVw35kQriwWTA",
+  "payload": ""
+}
+2025-08-29 23:32:36,538:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz/2625569537/576047049377 HTTP/1.1" 200 825
+2025-08-29 23:32:36,539:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:36 GMT
+Content-Type: application/json
+Content-Length: 825
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 5vcyUwULveODKVFPlwQlf13136axB4dLKX0ujaTggbwMcbuL8kg
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "melissa.amsterdam"
+  },
+  "status": "pending",
+  "expires": "2025-09-05T21:31:01Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/R0ezBg",
+      "status": "pending",
+      "token": "XaSoHSZVEbDBwNGP5uJbhbdWDu47xgXieN4xvCnGnCE"
+    },
+    {
+      "type": "tls-alpn-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/JUryxA",
+      "status": "pending",
+      "token": "XaSoHSZVEbDBwNGP5uJbhbdWDu47xgXieN4xvCnGnCE"
+    },
+    {
+      "type": "dns-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/UEeGBQ",
+      "status": "pending",
+      "token": "XaSoHSZVEbDBwNGP5uJbhbdWDu47xgXieN4xvCnGnCE"
+    }
+  ]
+}
+2025-08-29 23:32:36,539:DEBUG:acme.client:Storing nonce: 5vcyUwULveODKVFPlwQlf13136axB4dLKX0ujaTggbwMcbuL8kg
+2025-08-29 23:32:36,540:INFO:certbot._internal.auth_handler:Performing the following challenges:
+2025-08-29 23:32:36,540:INFO:certbot._internal.auth_handler:dns-01 challenge for melissa.amsterdam
+2025-08-29 23:32:36,541:INFO:certbot._internal.auth_handler:dns-01 challenge for melissa.amsterdam
+2025-08-29 23:32:36,541:WARNING:certbot.plugins.dns_common:Unsafe permissions on credentials configuration file: /etc/letsencrypt/secrets/cloudflare.ini
+2025-08-29 23:32:36,546:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-29 23:32:36,975:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=melissa.amsterdam&per_page=1 HTTP/1.1" 200 None
+2025-08-29 23:32:36,977:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Found zone_id of 1abddaf47a610b292bd9322e2ebe1c3b for melissa.amsterdam using name melissa.amsterdam
+2025-08-29 23:32:36,977:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Attempting to add record to zone 1abddaf47a610b292bd9322e2ebe1c3b: {'type': 'TXT', 'name': '_acme-challenge.melissa.amsterdam', 'content': 'Ys82_yu81FD72DKWzsPEwwN7KzxXbMjIlMXLeo_0uw8', 'ttl': 120}
+2025-08-29 23:32:37,257:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "POST /client/v4/zones/1abddaf47a610b292bd9322e2ebe1c3b/dns_records HTTP/1.1" 200 None
+2025-08-29 23:32:37,441:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones/1abddaf47a610b292bd9322e2ebe1c3b/dns_records?type=TXT&name=_acme-challenge.melissa.amsterdam&content=Ys82_yu81FD72DKWzsPEwwN7KzxXbMjIlMXLeo_0uw8&per_page=1 HTTP/1.1" 200 None
+2025-08-29 23:32:37,447:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Successfully added TXT record with record_id: 371efa027bfe6d89e8f7a75668d5b053
+2025-08-29 23:32:37,455:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-29 23:32:37,770:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=melissa.amsterdam&per_page=1 HTTP/1.1" 200 None
+2025-08-29 23:32:37,772:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Found zone_id of 1abddaf47a610b292bd9322e2ebe1c3b for melissa.amsterdam using name melissa.amsterdam
+2025-08-29 23:32:37,773:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Attempting to add record to zone 1abddaf47a610b292bd9322e2ebe1c3b: {'type': 'TXT', 'name': '_acme-challenge.melissa.amsterdam', 'content': 'mSqzAbGz7r3IiqsQjGD66Npm9G2sDAA3uBvz6VD9_k0', 'ttl': 120}
+2025-08-29 23:32:38,057:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "POST /client/v4/zones/1abddaf47a610b292bd9322e2ebe1c3b/dns_records HTTP/1.1" 200 None
+2025-08-29 23:32:38,503:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones/1abddaf47a610b292bd9322e2ebe1c3b/dns_records?type=TXT&name=_acme-challenge.melissa.amsterdam&content=mSqzAbGz7r3IiqsQjGD66Npm9G2sDAA3uBvz6VD9_k0&per_page=1 HTTP/1.1" 200 None
+2025-08-29 23:32:38,504:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Successfully added TXT record with record_id: 599bfa4063dbc1d62cadba1404e64c68
+2025-08-29 23:32:38,507:DEBUG:certbot._internal.display.obj:Notifying user: Waiting 10 seconds for DNS changes to propagate
+2025-08-29 23:32:48,518:DEBUG:acme.client:JWS payload:
+b'{}'
+2025-08-29 23:32:48,520:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049287/yeHfjw:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICI1dmN5VXdVTHZlT0RLVkZQbHdRbGYxMzEzNmF4QjRkTEtYMHVqYVRnZ2J3TWNidUw4a2ciLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2NoYWxsLzI2MjU1Njk1MzcvNTc2MDQ3MDQ5Mjg3L3llSGZqdyJ9",
+  "signature": "FYOz8Pw-Ti83uz5knVtNoFH7HUbdXfmUEz7o9AfvmoILSqpJknSbo_1-5DD9Cxrkr8CUUSXuZxiFokiMi8oYgM9lNEXfWbNHKaDjnzf9o03iylvROFIkxIOJq0BhlfmzqHVYJJY-kygTEUs-sT2AwdV4s9vM6ICDAMuFt6NGLOZ-jpS6FeE0soLLAP1jY_sdIW6SXfTjoAedzglDr3rbT_sB9DUpVC5KY12C1KcrGouNkX85wCEI9mTMe_PZlr3PIy3Thz_AkHcgXgKaDQW7NIvkZkUZyaCvZvGuql_4qh3F0_9lWSEZRRnEO8rHoKaoWp4ZmcFEdgxu8mM5kbsS9g",
+  "payload": "e30"
+}
+2025-08-29 23:32:48,609:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/chall/2625569537/576047049287/yeHfjw HTTP/1.1" 200 194
+2025-08-29 23:32:48,610:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:48 GMT
+Content-Type: application/json
+Content-Length: 194
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049287>;rel="up"
+Location: https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049287/yeHfjw
+Replay-Nonce: znbRssP_-THU-T0lFqbUmBp5KrbnZDsfkior9vIRXoz2kiC995E
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "type": "dns-01",
+  "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049287/yeHfjw",
+  "status": "pending",
+  "token": "VASjpgwb2BH_4oDfM7K4JMW5C_J74TNUIG0gqrwugRo"
+}
+2025-08-29 23:32:48,610:DEBUG:acme.client:Storing nonce: znbRssP_-THU-T0lFqbUmBp5KrbnZDsfkior9vIRXoz2kiC995E
+2025-08-29 23:32:48,610:DEBUG:acme.client:JWS payload:
+b'{}'
+2025-08-29 23:32:48,612:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/UEeGBQ:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJ6bmJSc3NQXy1USFUtVDBsRnFiVW1CcDVLcmJuWkRzZmtpb3I5dklSWG96MmtpQzk5NUUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2NoYWxsLzI2MjU1Njk1MzcvNTc2MDQ3MDQ5Mzc3L1VFZUdCUSJ9",
+  "signature": "OpHyfK9rVPf-qUzfVJHTcjUeErb8T9ZznF0UWlSgD_j-Y7hv0zuOv69ingX-h3fiCmwUBrczohGL63pym6nWUngvUnn8jIzx3Ht5zykd262kf3LYzBXktnqqyDuctS9e7eLcZUjQvrWD_DmnOW1y2SSMda9hUuZO9wff9pcA0v-LC1WD6PWdViYWxi1nq6Oov-fXl5KZi04bS4s6rFHvWghZ0Px9ZD_s-4aAhtMMfJjcUc0cDS6l_uEjT0CsS2gVS9zEs6dGeL8Qq1JByhgN_yv-8MLkmyY9EviZVQRvNPAvQ4N5n02zNGnTyJMOb9_Prmq4fWI1zF_oHxCT5g9cOg",
+  "payload": "e30"
+}
+2025-08-29 23:32:48,676:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/chall/2625569537/576047049377/UEeGBQ HTTP/1.1" 200 194
+2025-08-29 23:32:48,677:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:48 GMT
+Content-Type: application/json
+Content-Length: 194
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049377>;rel="up"
+Location: https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/UEeGBQ
+Replay-Nonce: znbRssP_79lRsn4ceq4zczqvFgq_V6QBlykumvcm2VC23p8KwnI
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "type": "dns-01",
+  "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/UEeGBQ",
+  "status": "pending",
+  "token": "XaSoHSZVEbDBwNGP5uJbhbdWDu47xgXieN4xvCnGnCE"
+}
+2025-08-29 23:32:48,677:DEBUG:acme.client:Storing nonce: znbRssP_79lRsn4ceq4zczqvFgq_V6QBlykumvcm2VC23p8KwnI
+2025-08-29 23:32:48,677:INFO:certbot._internal.auth_handler:Waiting for verification...
+2025-08-29 23:32:49,678:DEBUG:acme.client:JWS payload:
+b''
+2025-08-29 23:32:49,680:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049287:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJ6bmJSc3NQXzc5bFJzbjRjZXE0emN6cXZGZ3FfVjZRQmx5a3VtdmNtMlZDMjNwOEt3bkkiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LzI2MjU1Njk1MzcvNTc2MDQ3MDQ5Mjg3In0",
+  "signature": "ncYxYhvegAJhBdZWT5aItP94DP6KmA-wq3E2q9jlHZYdONax3iztirrv1kSs8-IilFkQLMHPu52F1aVKubX8kv-9wUVX-EdtmSUV7Vhcuw_1YJ2dpPkxJJiIQqy4KoD2wlS9ji2f9IT2OAqlymB3gvcfS67iffAJ6jZkf26-0NDQ1oieO-tSRmuUJZ3LJAuAvr-VyW-lTAWE1knKovEH8PJ10wvH4ziiFN9a0TxzVuIPVgqU3xaSj2AjCpqhaDFvjn-PcXxkrGkGDjN1m4A6a43fFpAkjC_bKT2uxXTHSUBwFibn9GR-YfNrMe-_GCu7NtQ07n1ohyzpt2a789iTeg",
+  "payload": ""
+}
+2025-08-29 23:32:49,743:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz/2625569537/576047049287 HTTP/1.1" 200 566
+2025-08-29 23:32:49,743:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:49 GMT
+Content-Type: application/json
+Content-Length: 566
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: znbRssP_jzdGo65irQ4H2HLL3KT5PhGhbyvs8c7oOlSh2BS2RuI
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "melissa.amsterdam"
+  },
+  "status": "valid",
+  "expires": "2025-09-28T21:32:49Z",
+  "challenges": [
+    {
+      "type": "dns-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049287/yeHfjw",
+      "status": "valid",
+      "validated": "2025-08-29T21:32:48Z",
+      "token": "VASjpgwb2BH_4oDfM7K4JMW5C_J74TNUIG0gqrwugRo",
+      "validationRecord": [
+        {
+          "hostname": "melissa.amsterdam",
+          "addressUsed": ""
+        }
+      ]
+    }
+  ],
+  "wildcard": true
+}
+2025-08-29 23:32:49,743:DEBUG:acme.client:Storing nonce: znbRssP_jzdGo65irQ4H2HLL3KT5PhGhbyvs8c7oOlSh2BS2RuI
+2025-08-29 23:32:49,744:DEBUG:acme.client:JWS payload:
+b''
+2025-08-29 23:32:49,745:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049377:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJ6bmJSc3NQX2p6ZEdvNjVpclE0SDJITEwzS1Q1UGhHaGJ5dnM4YzdvT2xTaDJCUzJSdUkiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2F1dGh6LzI2MjU1Njk1MzcvNTc2MDQ3MDQ5Mzc3In0",
+  "signature": "mbHHbj-fOzoNGwxtjvaUSInJNUmdj0b2SZ_654kuvIzrwYVuHiRWrlPAFqHEwIxY8AqTJ09ssPawrbKDqyQLEnhn5b9qVif0HfYfvBj--6crAJJM4a9UhfmSr8jPZ9NnF4eRca7NURF-9TBd2UIJGuyz1kQU4foF1bG8fZu6AHuTNvWn5Rg6_kcgNvGZUScq4apyaS-9o4ceC5fc1BnYGEEBPdMV9KdJnjYw8li8hcRRMAITT_ani53u3kABerWQeZv-CkInCNX-NClMmil0mFcMjg6f96qh8EdqxsBO_wXNuDMxJ1zOrVZCNGqPPSVE4tes45PaS7efKrIt47nR3w",
+  "payload": ""
+}
+2025-08-29 23:32:49,808:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz/2625569537/576047049377 HTTP/1.1" 200 546
+2025-08-29 23:32:49,808:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:49 GMT
+Content-Type: application/json
+Content-Length: 546
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: znbRssP_0b5QytAqMC0HIak8UoGeh2z6fdxMtPF1rFNvXnouBfo
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "melissa.amsterdam"
+  },
+  "status": "valid",
+  "expires": "2025-09-28T21:32:49Z",
+  "challenges": [
+    {
+      "type": "dns-01",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall/2625569537/576047049377/UEeGBQ",
+      "status": "valid",
+      "validated": "2025-08-29T21:32:48Z",
+      "token": "XaSoHSZVEbDBwNGP5uJbhbdWDu47xgXieN4xvCnGnCE",
+      "validationRecord": [
+        {
+          "hostname": "melissa.amsterdam",
+          "addressUsed": ""
+        }
+      ]
+    }
+  ]
+}
+2025-08-29 23:32:49,808:DEBUG:acme.client:Storing nonce: znbRssP_0b5QytAqMC0HIak8UoGeh2z6fdxMtPF1rFNvXnouBfo
+2025-08-29 23:32:49,809:DEBUG:certbot._internal.error_handler:Calling registered functions
+2025-08-29 23:32:49,809:INFO:certbot._internal.auth_handler:Cleaning up challenges
+2025-08-29 23:32:49,812:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-29 23:32:50,731:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=melissa.amsterdam&per_page=1 HTTP/1.1" 200 None
+2025-08-29 23:32:50,739:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Found zone_id of 1abddaf47a610b292bd9322e2ebe1c3b for melissa.amsterdam using name melissa.amsterdam
+2025-08-29 23:32:51,584:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones/1abddaf47a610b292bd9322e2ebe1c3b/dns_records?type=TXT&name=_acme-challenge.melissa.amsterdam&content=Ys82_yu81FD72DKWzsPEwwN7KzxXbMjIlMXLeo_0uw8&per_page=1 HTTP/1.1" 200 None
+2025-08-29 23:32:52,270:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "DELETE /client/v4/zones/1abddaf47a610b292bd9322e2ebe1c3b/dns_records/371efa027bfe6d89e8f7a75668d5b053 HTTP/1.1" 200 None
+2025-08-29 23:32:52,271:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Successfully deleted TXT record.
+2025-08-29 23:32:52,275:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-08-29 23:32:52,861:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones?name=melissa.amsterdam&per_page=1 HTTP/1.1" 200 None
+2025-08-29 23:32:52,869:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Found zone_id of 1abddaf47a610b292bd9322e2ebe1c3b for melissa.amsterdam using name melissa.amsterdam
+2025-08-29 23:32:53,218:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "GET /client/v4/zones/1abddaf47a610b292bd9322e2ebe1c3b/dns_records?type=TXT&name=_acme-challenge.melissa.amsterdam&content=mSqzAbGz7r3IiqsQjGD66Npm9G2sDAA3uBvz6VD9_k0&per_page=1 HTTP/1.1" 200 None
+2025-08-29 23:32:53,682:DEBUG:urllib3.connectionpool:https://api.cloudflare.com:443 "DELETE /client/v4/zones/1abddaf47a610b292bd9322e2ebe1c3b/dns_records/599bfa4063dbc1d62cadba1404e64c68 HTTP/1.1" 200 None
+2025-08-29 23:32:53,683:DEBUG:certbot_dns_cloudflare._internal.dns_cloudflare:Successfully deleted TXT record.
+2025-08-29 23:32:53,686:DEBUG:certbot._internal.client:CSR: CSR(file='/etc/letsencrypt/csr/0002_csr-certbot.pem', data=b'-----BEGIN CERTIFICATE REQUEST-----\nMIICiTCCAXECAQAwADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAO66\nN5ai/9vTlDB6kJa2/U7QAcbu854N3ofQ6dRjkJYeUZRjgOUmd4d8KKuxng26qcqm\nLFg+GJhdrh6KidI6LORghmnkA6uVAhZa6tyIOTXhoqWPcfG8AvVsjVp2974gBUQB\n6zMdB9HoO8fU/SmQUtfkhRHjggz/5XgUJcCqPTDyIky2wo1KwpoAtXeCPZCUMRtr\nq2vWwiTHFQ7v/6n7Xsj63YK46CHuJ/dUnV5j9kukF2Dm5ysGUhH7eQ1ULCkRmr9W\ny767gTCFD9k0QTt30JZ+HajQMch3pJm1etbql5xj3+0w1u4ZJVpUwkWo//UrpZY8\nQGb4HfW2sPd1CI2ioJcCAwEAAaBEMEIGCSqGSIb3DQEJDjE1MDMwMQYDVR0RBCow\nKIITKi5tZWxpc3NhLmFtc3RlcmRhbYIRbWVsaXNzYS5hbXN0ZXJkYW0wDQYJKoZI\nhvcNAQELBQADggEBAB9mQjrY680tuHMrUvrqtwFGX5+55bG4yvjtNzMDs5olpG2R\nhn6efJDI7s9yQHnBG/HnVIuNsubGs7rZNsqiia0qfRuRXJnqLgu4gbRGfEym6Mym\nTfjqwDo6cUEFCUElJQbVxE4IyCPsrq1O5swHpRsrKG8IjzP+XXVcXmSq7OypPOXr\nO6T1Hq0BfYU80cdc3qi+6EqTh809KwYKqUJpr0tlugcoZP9PaYLA5pMFkDAW0TeT\njWB5LAlTmmlfVN7k/mFU9hqp7wTMrA9Jbr5KWE9HuwVshxdXKkBaWidmDsopZ4Ny\nSl/uj7+yE9VtdAUx2HKqY40T+LcbmEoYtPZE/2g=\n-----END CERTIFICATE REQUEST-----\n', form='pem')
+2025-08-29 23:32:53,688:DEBUG:acme.client:JWS payload:
+b'{\n  "csr": "MIICiTCCAXECAQAwADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAO66N5ai_9vTlDB6kJa2_U7QAcbu854N3ofQ6dRjkJYeUZRjgOUmd4d8KKuxng26qcqmLFg-GJhdrh6KidI6LORghmnkA6uVAhZa6tyIOTXhoqWPcfG8AvVsjVp2974gBUQB6zMdB9HoO8fU_SmQUtfkhRHjggz_5XgUJcCqPTDyIky2wo1KwpoAtXeCPZCUMRtrq2vWwiTHFQ7v_6n7Xsj63YK46CHuJ_dUnV5j9kukF2Dm5ysGUhH7eQ1ULCkRmr9Wy767gTCFD9k0QTt30JZ-HajQMch3pJm1etbql5xj3-0w1u4ZJVpUwkWo__UrpZY8QGb4HfW2sPd1CI2ioJcCAwEAAaBEMEIGCSqGSIb3DQEJDjE1MDMwMQYDVR0RBCowKIITKi5tZWxpc3NhLmFtc3RlcmRhbYIRbWVsaXNzYS5hbXN0ZXJkYW0wDQYJKoZIhvcNAQELBQADggEBAB9mQjrY680tuHMrUvrqtwFGX5-55bG4yvjtNzMDs5olpG2Rhn6efJDI7s9yQHnBG_HnVIuNsubGs7rZNsqiia0qfRuRXJnqLgu4gbRGfEym6MymTfjqwDo6cUEFCUElJQbVxE4IyCPsrq1O5swHpRsrKG8IjzP-XXVcXmSq7OypPOXrO6T1Hq0BfYU80cdc3qi-6EqTh809KwYKqUJpr0tlugcoZP9PaYLA5pMFkDAW0TeTjWB5LAlTmmlfVN7k_mFU9hqp7wTMrA9Jbr5KWE9HuwVshxdXKkBaWidmDsopZ4NySl_uj7-yE9VtdAUx2HKqY40T-LcbmEoYtPZE_2g"\n}'
+2025-08-29 23:32:53,691:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/finalize/2625569537/422834330707:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICJ6bmJSc3NQXzBiNVF5dEFxTUMwSElhazhVb0dlaDJ6NmZkeE10UEYxckZOdlhub3VCZm8iLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2ZpbmFsaXplLzI2MjU1Njk1MzcvNDIyODM0MzMwNzA3In0",
+  "signature": "KpOv6H-cd3Yo-GPuqn8nBkebf2Y33peSqYm1kfsilPA0fD-BRpYZAUte9Me1zP3aWn4vh6FVQldn-NaXmMpcMvmwJDdbgol8CTPAVph4WfXrbv8p2Cvf2FbdzGh6Lhlsi8xW3Z3F8IodwGxNHLb5uI2x8wIyYDnlFAKqDfE-PPqFdwnssnEXotNhDDD3LGcZiyaoX8lvPRkTrk8N2jKrMohSi8u7LwAzM9Uz_jBh64Ja1kGW8rYC6eXCO4ZtPFrRQkLqk5fQipwty4JocEBgCQNlc3FMKW_LFCdjOi5EActNIlWvTv87JOqvwhWDgkVikkpRbzdEpAMzH0fCJdQ5MA",
+  "payload": "ewogICJjc3IiOiAiTUlJQ2lUQ0NBWEVDQVFBd0FEQ0NBU0l3RFFZSktvWklodmNOQVFFQkJRQURnZ0VQQURDQ0FRb0NnZ0VCQU82Nk41YWlfOXZUbERCNmtKYTJfVTdRQWNidTg1NE4zb2ZRNmRSamtKWWVVWlJqZ09VbWQ0ZDhLS3V4bmcyNnFjcW1MRmctR0poZHJoNktpZEk2TE9SZ2htbmtBNnVWQWhaYTZ0eUlPVFhob3FXUGNmRzhBdlZzalZwMjk3NGdCVVFCNnpNZEI5SG9POGZVX1NtUVV0ZmtoUkhqZ2d6XzVYZ1VKY0NxUFREeUlreTJ3bzFLd3BvQXRYZUNQWkNVTVJ0cnEydld3aVRIRlE3dl82bjdYc2o2M1lLNDZDSHVKX2RVblY1ajlrdWtGMkRtNXlzR1VoSDdlUTFVTENrUm1yOVd5NzY3Z1RDRkQ5azBRVHQzMEpaLUhhalFNY2gzcEptMWV0YnFsNXhqMy0wdzF1NFpKVnBVd2tXb19fVXJwWlk4UUdiNEhmVzJzUGQxQ0kyaW9KY0NBd0VBQWFCRU1FSUdDU3FHU0liM0RRRUpEakUxTURNd01RWURWUjBSQkNvd0tJSVRLaTV0Wld4cGMzTmhMbUZ0YzNSbGNtUmhiWUlSYldWc2FYTnpZUzVoYlhOMFpYSmtZVzB3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUI5bVFqclk2ODB0dUhNclV2cnF0d0ZHWDUtNTViRzR5dmp0TnpNRHM1b2xwRzJSaG42ZWZKREk3czl5UUhuQkdfSG5WSXVOc3ViR3M3clpOc3FpaWEwcWZSdVJYSm5xTGd1NGdiUkdmRXltNk15bVRmanF3RG82Y1VFRkNVRWxKUWJWeEU0SXlDUHNycTFPNXN3SHBSc3JLRzhJanpQLVhYVmNYbVNxN095cFBPWHJPNlQxSHEwQmZZVTgwY2RjM3FpLTZFcVRoODA5S3dZS3FVSnByMHRsdWdjb1pQOVBhWUxBNXBNRmtEQVcwVGVUaldCNUxBbFRtbWxmVk43a19tRlU5aHFwN3dUTXJBOUpicjVLV0U5SHV3VnNoeGRYS2tCYVdpZG1Ec29wWjROeVNsX3VqNy15RTlWdGRBVXgySEtxWTQwVC1MY2JtRW9ZdFBaRV8yZyIKfQ"
+}
+2025-08-29 23:32:54,015:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/finalize/2625569537/422834330707 HTTP/1.1" 200 603
+2025-08-29 23:32:54,016:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:53 GMT
+Content-Type: application/json
+Content-Length: 603
+Connection: keep-alive
+Boulder-Requester: 2625569537
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/2625569537/422834330707
+Replay-Nonce: 5vcyUwULio7CTiJyLdpGeCZCQv3xjbRpOS2nTVhYG6jwQ8gbAJQ
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "valid",
+  "expires": "2025-09-05T21:31:01Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "*.melissa.amsterdam"
+    },
+    {
+      "type": "dns",
+      "value": "melissa.amsterdam"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049287",
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049377"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/2625569537/422834330707",
+  "certificate": "https://acme-v02.api.letsencrypt.org/acme/cert/054ef2594c581ca197825a40c5c07c27136d"
+}
+2025-08-29 23:32:54,016:DEBUG:acme.client:Storing nonce: 5vcyUwULio7CTiJyLdpGeCZCQv3xjbRpOS2nTVhYG6jwQ8gbAJQ
+2025-08-29 23:32:55,018:DEBUG:acme.client:JWS payload:
+b''
+2025-08-29 23:32:55,019:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/order/2625569537/422834330707:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICI1dmN5VXdVTGlvN0NUaUp5TGRwR2VDWkNRdjN4amJScE9TMm5UVmhZRzZqd1E4Z2JBSlEiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL29yZGVyLzI2MjU1Njk1MzcvNDIyODM0MzMwNzA3In0",
+  "signature": "UR6B6Xl7Am1crIjVMyvx2THqct1Wt442hHYBc4Q-smB753_5EvOyCKB68arAA6TFfDtxy--WepoAUx9Jui4rOwI7dU-fg0RvaTOYNW3NqNyqOLk_HSTpgBToLywhoDls7uxQWhlpeIg5-tF5d0IbsO1HUPqaUdxnHoobtGHn0j5XoR9V4vZLXINXi8toB6Pgfj2rgh6ke5vx8kJBkVnB1pEh_QlHn3nhLMF1Wkl0Vpt6M4npd49g_3y402Za-EYzbI0MIKajddtlGj_9yAujjxx24G-jCJqz1lF_Dt0gEQjbh6jjpNdx0q173tjy-Kh7fbXSlMis9RoIZlgYinOUAQ",
+  "payload": ""
+}
+2025-08-29 23:32:55,084:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/order/2625569537/422834330707 HTTP/1.1" 200 603
+2025-08-29 23:32:55,084:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:55 GMT
+Content-Type: application/json
+Content-Length: 603
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/2625569537/422834330707
+Replay-Nonce: 5vcyUwULCCJEe3V4AFXkWwrZyxItrcVd7ueCpz8MYkmkjSvENlU
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "valid",
+  "expires": "2025-09-05T21:31:01Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "*.melissa.amsterdam"
+    },
+    {
+      "type": "dns",
+      "value": "melissa.amsterdam"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049287",
+    "https://acme-v02.api.letsencrypt.org/acme/authz/2625569537/576047049377"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/2625569537/422834330707",
+  "certificate": "https://acme-v02.api.letsencrypt.org/acme/cert/054ef2594c581ca197825a40c5c07c27136d"
+}
+2025-08-29 23:32:55,085:DEBUG:acme.client:Storing nonce: 5vcyUwULCCJEe3V4AFXkWwrZyxItrcVd7ueCpz8MYkmkjSvENlU
+2025-08-29 23:32:55,085:DEBUG:acme.client:JWS payload:
+b''
+2025-08-29 23:32:55,086:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/cert/054ef2594c581ca197825a40c5c07c27136d:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvMjYyNTU2OTUzNyIsICJub25jZSI6ICI1dmN5VXdVTENDSkVlM1Y0QUZYa1d3clp5eEl0cmNWZDd1ZUNwejhNWWtta2pTdkVObFUiLCAidXJsIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2NlcnQvMDU0ZWYyNTk0YzU4MWNhMTk3ODI1YTQwYzVjMDdjMjcxMzZkIn0",
+  "signature": "C1KJu9hXMsfr6hymsQBlJmLUzn-fP4IcycIZUrAcpd-7jzWb3mgiIl8wIlKorKvhgFpzfMWMj0KcbG7NDp97vVldrMnYjCknBWMJB-f13uB_14EkR-NRc76uUrGp-nC6pW9cGX2nE5xBU6C5yWO3wt1JWvYe-37ISXOc2kAaagM6kxagtaHqD1l3p9eybwTAEd86fAfzlT4WXB1OEQutJGGlkIryZn-xDJytGtyIK2CEA2lrQa1D2k4LWrae7bHGNnITda3g2-uPaXSFBle3A1VpeIuJsmgI3nh0MMicwRsqeBu6td7JeCsZIhrzVRQ9OEpR_UVSZCu8fAbIBB4_sg",
+  "payload": ""
+}
+2025-08-29 23:32:55,149:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/cert/054ef2594c581ca197825a40c5c07c27136d HTTP/1.1" 200 3628
+2025-08-29 23:32:55,150:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Fri, 29 Aug 2025 21:32:55 GMT
+Content-Type: application/pem-certificate-chain
+Content-Length: 3628
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: znbRssP_0jxDd-3Oj404X9Bn4pdz3beYWuaG-2tNuXxIdO5vWRQ
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+-----BEGIN CERTIFICATE-----
+MIIFFjCCA/6gAwIBAgISBU7yWUxYHKGXglpAxcB8JxNtMA0GCSqGSIb3DQEBCwUA
+MDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQD
+EwNSMTIwHhcNMjUwODI5MjAzNDIzWhcNMjUxMTI3MjAzNDIyWjAeMRwwGgYDVQQD
+DBMqLm1lbGlzc2EuYW1zdGVyZGFtMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA7ro3lqL/29OUMHqQlrb9TtABxu7zng3eh9Dp1GOQlh5RlGOA5SZ3h3wo
+q7GeDbqpyqYsWD4YmF2uHoqJ0jos5GCGaeQDq5UCFlrq3Ig5NeGipY9x8bwC9WyN
+Wnb3viAFRAHrMx0H0eg7x9T9KZBS1+SFEeOCDP/leBQlwKo9MPIiTLbCjUrCmgC1
+d4I9kJQxG2ura9bCJMcVDu//qfteyPrdgrjoIe4n91SdXmP2S6QXYObnKwZSEft5
+DVQsKRGav1bLvruBMIUP2TRBO3fQln4dqNAxyHekmbV61uqXnGPf7TDW7hklWlTC
+Raj/9SulljxAZvgd9baw93UIjaKglwIDAQABo4ICNzCCAjMwDgYDVR0PAQH/BAQD
+AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAA
+MB0GA1UdDgQWBBS8pVUKY9MOJXHmfr1n+D/F+utylzAfBgNVHSMEGDAWgBQAtSny
+LY5vMeibTK14Pvrc6QzR0jAzBggrBgEFBQcBAQQnMCUwIwYIKwYBBQUHMAKGF2h0
+dHA6Ly9yMTIuaS5sZW5jci5vcmcvMDEGA1UdEQQqMCiCEyoubWVsaXNzYS5hbXN0
+ZXJkYW2CEW1lbGlzc2EuYW1zdGVyZGFtMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC8G
+A1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9yMTIuYy5sZW5jci5vcmcvMTEwLmNybDCC
+AQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AA3h8jAr0w3BQGISCepVLvxHdHyx1+kw
+7w5CHrR+Tqo0AAABmPe/apIAAAQDAEcwRQIhANYD2SKHwIYRTPUGSDQgoRzDcugq
+1ahl8qUOIY8j9dVAAiArusZEFo7GG/CGw2GByl80XmvC9vlOlaYOyi2ocKSRWgB2
+AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABmPe/atoAAAQDAEcw
+RQIgYD7bFTDApo4zAyEQzMU98OrjzA1pKC7u6zo9SMDALmUCIQCZ8cCicBMzf7us
+XZqwGL795GHnuftaaKpPvRoM6TGyPTANBgkqhkiG9w0BAQsFAAOCAQEAioBKu10E
+SFGsbKIke39pUIVSVbS6XnsGGtMLJ1D3XjD6WyHqT5bC2hAJsbU2W5c3220xK8sM
+XnvDlHeEjfSIKbv97DnNO+C19+Di9ICif4Mq3Tiid3FHHeR+4elujQ9OXv6HvBJk
+ld0RNLm1NLuZ7CXcEKQILHqsRaPLN+ZMh8stfBuYP+ptqnrlsc1z+Z2qtu1SD+aS
+laVoZySQObw6MvoD4z6qPUiv5emz5yNazWrp5UDWrAnQZWHHcFAwQRzXDH+6Deqv
+Qcb+yt3EI2s+BknvIKQYvdms/pL/xtwMN0cmVLpcKzdPbkv8qlxck5YK92UOR9dc
+nFgN4GkBvegddA==
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFBjCCAu6gAwIBAgIRAMISMktwqbSRcdxA9+KFJjwwDQYJKoZIhvcNAQELBQAw
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAw
+WhcNMjcwMzEyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg
+RW5jcnlwdDEMMAoGA1UEAxMDUjEyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA2pgodK2+lP474B7i5Ut1qywSf+2nAzJ+Npfs6DGPpRONC5kuHs0BUT1M
+5ShuCVUxqqUiXXL0LQfCTUA83wEjuXg39RplMjTmhnGdBO+ECFu9AhqZ66YBAJpz
+kG2Pogeg0JfT2kVhgTU9FPnEwF9q3AuWGrCf4yrqvSrWmMebcas7dA8827JgvlpL
+Thjp2ypzXIlhZZ7+7Tymy05v5J75AEaz/xlNKmOzjmbGGIVwx1Blbzt05UiDDwhY
+XS0jnV6j/ujbAKHS9OMZTfLuevYnnuXNnC2i8n+cF63vEzc50bTILEHWhsDp7CH4
+WRt/uTp8n1wBnWIEwii9Cq08yhDsGwIDAQABo4H4MIH1MA4GA1UdDwEB/wQEAwIB
+hjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwEgYDVR0TAQH/BAgwBgEB
+/wIBADAdBgNVHQ4EFgQUALUp8i2ObzHom0yteD763OkM0dIwHwYDVR0jBBgwFoAU
+ebRZ5nu25eQBc4AIiMgaWPbpm24wMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAC
+hhZodHRwOi8veDEuaS5sZW5jci5vcmcvMBMGA1UdIAQMMAowCAYGZ4EMAQIBMCcG
+A1UdHwQgMB4wHKAaoBiGFmh0dHA6Ly94MS5jLmxlbmNyLm9yZy8wDQYJKoZIhvcN
+AQELBQADggIBAI910AnPanZIZTKS3rVEyIV29BWEjAK/duuz8eL5boSoVpHhkkv3
+4eoAeEiPdZLj5EZ7G2ArIK+gzhTlRQ1q4FKGpPPaFBSpqV/xbUb5UlAXQOnkHn3m
+FVj+qYv87/WeY+Bm4sN3Ox8BhyaU7UAQ3LeZ7N1X01xxQe4wIAAE3JVLUCiHmZL+
+qoCUtgYIFPgcg350QMUIWgxPXNGEncT921ne7nluI02V8pLUmClqXOsCwULw+PVO
+ZCB7qOMxxMBoCUeL2Ll4oMpOSr5pJCpLN3tRA2s6P1KLs9TSrVhOk+7LX28NMUlI
+usQ/nxLJID0RhAeFtPjyOCOscQBA53+NRjSCak7P4A5jX7ppmkcJECL+S0i3kXVU
+y5Me5BbrU8973jZNv/ax6+ZK6TM8jWmimL6of6OrX7ZU6E2WqazzsFrLG3o2kySb
+zlhSgJ81Cl4tv3SbYiYXnJExKQvzf83DYotox3f0fwv7xln1A2ZLplCb0O+l/AK0
+YE0DS2FPxSAHi0iwMfW2nNHJrXcY3LLHD77gRgje4Eveubi2xxa+Nmk/hmhLdIET
+iVDFanoCrMVIpQ59XWHkzdFmoHXHBV7oibVjGSO7ULSQ7MJ1Nz51phuDJSgAIU7A
+0zrLnOrAj/dfrlEWRhCvAgbuwLZX1A2sjNjXoPOHbsPiy+lO1KF8/XY7
+-----END CERTIFICATE-----
+
+2025-08-29 23:32:55,150:DEBUG:acme.client:Storing nonce: znbRssP_0jxDd-3Oj404X9Bn4pdz3beYWuaG-2tNuXxIdO5vWRQ
+2025-08-29 23:32:55,154:DEBUG:certbot._internal.storage:Creating directory /etc/letsencrypt/archive.
+2025-08-29 23:32:55,154:DEBUG:certbot._internal.storage:Creating directory /etc/letsencrypt/live.
+2025-08-29 23:32:55,154:DEBUG:certbot._internal.storage:Writing README to /etc/letsencrypt/live/README.
+2025-08-29 23:32:55,154:DEBUG:certbot._internal.storage:Creating directory /etc/letsencrypt/archive/melissa.amsterdam.
+2025-08-29 23:32:55,154:DEBUG:certbot._internal.storage:Creating directory /etc/letsencrypt/live/melissa.amsterdam.
+2025-08-29 23:32:55,155:DEBUG:certbot._internal.storage:Writing certificate to /etc/letsencrypt/live/melissa.amsterdam/cert.pem.
+2025-08-29 23:32:55,155:DEBUG:certbot._internal.storage:Writing private key to /etc/letsencrypt/live/melissa.amsterdam/privkey.pem.
+2025-08-29 23:32:55,155:DEBUG:certbot._internal.storage:Writing chain to /etc/letsencrypt/live/melissa.amsterdam/chain.pem.
+2025-08-29 23:32:55,155:DEBUG:certbot._internal.storage:Writing full chain to /etc/letsencrypt/live/melissa.amsterdam/fullchain.pem.
+2025-08-29 23:32:55,155:DEBUG:certbot._internal.storage:Writing README to /etc/letsencrypt/live/melissa.amsterdam/README.
+2025-08-29 23:32:55,162:DEBUG:certbot._internal.plugins.selection:Requested authenticator dns-cloudflare and installer <certbot._internal.cli.cli_utils._Default object at 0x75a3679e4e80>
+2025-08-29 23:32:55,163:DEBUG:certbot._internal.cli:Var authenticator=dns-cloudflare (set by user).
+2025-08-29 23:32:55,163:DEBUG:certbot._internal.cli:Var dns_cloudflare_credentials=/etc/letsencrypt/secrets/cloudflare.ini (set by user).
+2025-08-29 23:32:55,163:DEBUG:certbot._internal.storage:Writing new config /etc/letsencrypt/renewal/melissa.amsterdam.conf.
+2025-08-29 23:32:55,166:DEBUG:certbot._internal.display.obj:Notifying user: 
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/melissa.amsterdam/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/melissa.amsterdam/privkey.pem
+This certificate expires on 2025-11-27.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+2025-08-29 23:32:55,167:DEBUG:certbot._internal.display.obj:Notifying user: If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le

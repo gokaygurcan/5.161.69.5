@@ -1,0 +1,6 @@
+_data/agent.log
+_data/init.log
+_data/process-agent.log
+_data/security-agent.log
+_data/system-probe.log
+_data/trace-agent.log
