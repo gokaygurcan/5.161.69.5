@@ -1,0 +1,6 @@
+_data/.cache/
+_data/.conda/
+_data/.jupyter/lab/
+_data/.jupyter/migrated
+_data/.local/
+_data/.npm/
